@@ -1,0 +1,126 @@
+
+body{
+  font-family: Poppins;
+  background-image: url(../img/background.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#signup{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.signup-text-title{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #FFFFFF;
+}
+
+.signup-text-p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.forms-wrap{
+  width: 540px;
+}
+
+.forms-text{
+  padding: 17px 111px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+  color: #FFFFFF;
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+.forms-text span{
+  font-weight: lighter;
+}
+
+.forms{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  /* width: 540px; */
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+input{
+  margin-bottom: 20px;
+  padding: 15px 32px;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+input:focus{
+  border: 1px solid #5E54A4;
+  outline: none;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+::placeholder{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+button{
+  margin-bottom: 20px;
+  padding: 15px 32px;
+  background: #38CC8B;
+  color: #FFFFFF;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  transition:  0.4s ease-in-out;
+}
+
+button:focus, button:hover{
+  cursor: pointer;
+  outline: none;
+  background: #09b46a;
+}
+
+.form-p{
+  margin-top: -12px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #BAB7D4;
+}
+
+.form-p span{
+  font-weight: 700;
+  color: #ff6464;
+}
+
