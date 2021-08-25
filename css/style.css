@@ -6,10 +6,6 @@ body{
   background-position: center center;
 }
 
-a{
-  text-decoration: none;
-}
-
 #signup{
   height: 100vh;
   display: flex;
@@ -123,10 +119,9 @@ button:focus, button:hover{
   color: #BAB7D4;
 }
 
-.form-p span{
+.form-p a{
+  text-decoration: none;
   font-weight: 700;
-}
-.forms-p a{
   color: #ff6464;
 }
 
